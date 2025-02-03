@@ -1,3 +1,5 @@
+const beforeusButton = document.querySelector('#beforeus');
+
 const beforeUsPics = [
     "https://drive.google.com/file/d/19EpInRdwlAR8qFw5iJyoss3lSnWFu0AI/view?usp=drive_link",
     "https://drive.google.com/file/d/1fknlS6VTFR35VxkO6DtK11hFqt-T5TWO/view?usp=drive_link",
@@ -39,9 +41,9 @@ for (let i = 0; i < beforeUsPics.length; i++) {
     beforeUsDiv.appendChild(singleImageFigure);
 }
 
-
-
-
+beforeusButton.addEventListener('click', () => {
+    beforeUsDiv.classList.toggle('hide')
+});
 
 
 
