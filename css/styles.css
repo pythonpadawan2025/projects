@@ -15,9 +15,8 @@
     text-align: center;
 }
 
-
 body {
-    background-image: url('../../projects/img/main/church2.jpg');
+    background-image: url('../../projects/img/church/church2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
