@@ -17,12 +17,16 @@
 
 
 body {
-    background: linear-gradient(rgb(5, 73, 5), black, rgb(5, 73, 5));
+
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1 {
     text-align: center;
+    text-decoration: none;
+    color: white;
+
 }
 
 #nav ul li {
@@ -38,9 +42,41 @@ h1 {
 nav a {
     color: white;
     text-decoration: none;
-    background-color: black;
 }
 
 nav a:hover {
     font-size: x-large;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.imagefigure {
+    display: inline-block;
+}
+
+.imagefigure img {
+    width: 300px;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
